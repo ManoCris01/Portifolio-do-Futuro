@@ -43,7 +43,7 @@ header{
 }
 nav a{
     font-size: 1.8rem;
-    color:rgb(241, 241, 241);
+    color: black;
     margin-left: 4rem;
     font-weight: 400;
     transition: 0.3s ease;
@@ -51,8 +51,8 @@ nav a{
 }
 nav a:hover,
 nav a.active{
-    color: #e4e022ce;
-    border-bottom: 3px solid #e4e022ce;
+    color: blueviolet;
+    border-bottom: 3px solid blueviolet;
 }
 
 section{
@@ -265,7 +265,20 @@ span{
     color: blueviolet;
 }
 .blocos p{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     line-height: 1.7;
-    color: white;
+    color: black;
+}
+#servicos{
+    background-color: rgb(255, 255, 255);
+    
+}
+.servicos-img img{
+    position:relative;
+    width: 52vh;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.servicos-img img:hover{
+    transform: scale(1.1) ;
 }
